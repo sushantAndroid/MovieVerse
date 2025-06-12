@@ -56,6 +56,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.9.0")  // compose navigation
     //Room Database
     implementation("androidx.room:room-runtime:2.7.1")
+    implementation(libs.androidx.paging.common.android)
     ksp("androidx.room:room-compiler:2.7.1")
     implementation("androidx.room:room-ktx:2.7.1")
 
@@ -74,6 +75,7 @@ dependencies {
     ksp("com.google.dagger:hilt-android-compiler:2.56.2")
     ksp("androidx.hilt:hilt-compiler:1.2.0")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+
 
     implementation("io.coil-kt.coil3:coil-compose:3.2.0") // coil
 
